@@ -1,0 +1,4 @@
+FROM bash:4.4
+
+ENTRYPOINT ["echo"]
+CMD ["this a default message!"]

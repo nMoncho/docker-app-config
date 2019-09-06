@@ -1,0 +1,4 @@
+FROM bash:4.4
+
+ENV MY_NAME "John Doe"
+ENV MY_EMAIL "jonh.doe@noname.com"

@@ -1,0 +1,6 @@
+FROM bash:4.4
+
+COPY lorem.md .
+ADD  petshop/upload/ cat_pics/
+
+RUN echo "Finished copying!"

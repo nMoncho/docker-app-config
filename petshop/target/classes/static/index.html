@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Petshop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Petshop</h1>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Upload your pet's picture</h5>
+          <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="picture" accept="image/png, image/jpeg">
+            <button type="submit" class="btn btn-primary" disabled>Upload</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+      <h2>Uploaded pictures</h2>
+      <div class="row">
+        <div class="col-12 js-pictures">
+          <!-- Pictures go here -->
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/petshop.js"></script>
+  </body>
+</html>

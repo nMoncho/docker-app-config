@@ -1,0 +1,7 @@
+FROM bash:4.4
+
+ARG MY_BUILD_ARG1
+ARG MY_BUILD_ARG2
+ARG MY_BUILD_ARG3=Baz
+
+RUN echo "Hey look at my ${MY_BUILD_ARG1} argument!"
