@@ -1,6 +1,6 @@
 # Configuring applications with Docker
 
-This repository acts as companion code for the blogpost, it provides 6 examples:
+This repository acts as companion code for the [blog post](https://new-grumpy-mentat.blogspot.com/2019/09/configuring-applications-with-docker_9.html), it provides 6 examples:
 - Image with arguments.
 - Image that includes files.
 - Container with runtime arguments.
